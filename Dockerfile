@@ -13,4 +13,4 @@ RUN yum -y update && \
       mysql \
       mysql-server \
       net-snmp \
-      crond
+      cronie
