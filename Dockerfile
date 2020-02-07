@@ -7,7 +7,7 @@ ENV REFRESHED_AT 2020-02-07
 RUN yum -y update && \
     yum -y install httpd \
       php \ 
-      php-mysql \
+      php-mysqlnd \
       php-snmp \ 
       php-xml \
       mysql \
