@@ -13,4 +13,5 @@ RUN yum -y update && \
       mysql \
       mysql-server \
       net-snmp \
-      cronie
+      cronie \
+      wget
